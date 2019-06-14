@@ -61,7 +61,7 @@ Consider the following:
 As of 2019, Facebook has 2.32 billion users, Youtube: 1.9 billion users, WhatsApp: 1.6 billion users and Instagram 1 billion users. Every day, these users contribute to billions of images, posts, videos, tweets, etc. You can now imagine the insanely large amount (or Volume) of data that is generated every minute around the world.
 Data volume is the primary attribute of big data. Big data can be quantified by size in Terabytes (TBs) or Petabytes (PBs), as well as even the number of records, transactions, tables, or files. Additionally, one of the things that make big data really big is that it’s coming from a greater variety of sources than ever before, including logs, clickstreams, and social media as we will see below. 
 
-<img src="./images/ranking_users.png" width=500>
+<img src="./images/rank_users.png" width="650">
 
 
 ### VELOCITY
@@ -69,7 +69,7 @@ Velocity refers to the speed with which data is generated, and as internet speed
 
 The following image created by [Lori Lewis and Chadd Callahan](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute) shows what happens on major social media platforms in one minute. 
 
-<img src="./images/internet_minute.jpg" width=500>
+<img src="./images/internet_minute.jpg" width="500">
 
 Velocity is basically the frequency of data generation or the frequency of data delivery. The leading edge of
 big data is streaming data, which is collected in real-time from the websites
@@ -82,7 +82,7 @@ Variety in Big Data refers to all the structured and unstructured data that has 
 
 Variety is all about the ability to classify the incoming data into various categories and turn unstructured data into something with more structure.
 
-<img src="./images/unstructured_data.png" width=500>
+<img src="./images/unstructured_data.png" width="500">
 
 This leads us to the most widely used definition in the industry by Gartner.
 
@@ -124,7 +124,7 @@ Along with some of the most common advanced data analytics methods such as regre
 
 For example, social media has recently become important for social networking and content sharing. Yet, the content that is generated from social media websites is enormous and remains largely unexploited. However, social media analytics can be used to analyze such data and extract useful information and predictions.
 
-<img src="./images/social_media.png" width=500>
+<img src="./images/social_media.png" width="600">
 
 >__Social media analytics__ is based on developing and evaluating informatics frameworks and
 tools in order to collect, monitor, summarize, analyze, as well as visualize social media
@@ -140,7 +140,7 @@ __Sentiment Analysis/Opinion Mining__ is also becoming more and more important a
 
 >__Sentiment Analysis__ focuses on analyzing and understanding emotions from subjective text patterns and is enabled through text mining. It identifies the opinions and attitudes of individuals towards certain topics, and it is useful in classifying viewpoints as positive or negative. 
 
-<img src="./images/sentiment.png" width=500>
+<img src="./images/sentiment_2.png" width=500>
 
 Sentiment analysis uses NLP and text analytics in order to identify and extract information by finding words that are indicative of a sentiment, as well as relationships between words so that sentiments can be accurately identified
 
