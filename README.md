@@ -3,9 +3,9 @@
 
 ## Introduction
 
-In the information age, data in huge quantities has become available to analysts and decision makers. Big data Analytics involves dealing with data that is big in __volume__ and high in __variety__ and __velocity__, a framework developed by making it challenging for data scientists to run their routine analysis activities. Due to a vast increase in the amount of such data in recent times, A number of specialized platforms and development paradigms have been developed to fulfill this need. Using such specialist approaches allow data scientists to gain valuable insights from such complex data, ranging from daily transactions to customer interactions and social network data.
+In the information age, data in huge quantities has become available to analysts and decision makers. Due to a vast increase in the amount of such data in recent times, a number of specialized platforms and development paradigms have been developed that can handle big data. Using such specialist approaches allow data scientists to gain valuable insights from complex data, ranging from daily transactions to customer interactions and social network data.
 
-Big Data Analytics is the application of advanced analytics techniques on big data. This section aims to focus on some of the different analytical approaches and tools which can be applied to big data to gain valuable insights to aid business decision making. 
+This section aims to focus on some of the different analytical approaches and tools data data scientists apply to big data in order to gain valuable insights to aid business decision making. 
 
 ## Objectives
 You will be able to:
@@ -24,7 +24,7 @@ Big data is no different than normal data that we have seen so far; it's only "b
 
 ### Defining Big Data
 
-Despite all the hype around this topic, there is no clear consensus on __How to define Big Data__. The term often gets related to Business Analytics and Data mining for identifying relationships and associations present in huge amounts of transaction data.  
+Despite all the hype around this topic, there is no clear consensus on how to define  __Big Data__. The term often gets related to Business Analytics and Data mining for identifying relationships and associations present in huge amounts of transaction data.  
 
 In the data science domain, Big Data usually refers to datasets that grow so large that they become awkward to work with using traditional database management systems and analytical approaches. They are data sets whose size is beyond the ability of commonly used software tools and storage systems to capture, store, manage, as well as process the data within a tolerable elapsed time.
 
