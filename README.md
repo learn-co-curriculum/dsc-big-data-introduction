@@ -5,13 +5,14 @@
 
 In the information age, data in huge quantities has become available to analysts and decision makers. Due to a vast increase in the amount of such data in recent times, a number of specialized platforms and development paradigms have been developed that can handle big data. Using such specialist approaches allow data scientists to gain valuable insights from complex data, ranging from daily transactions to customer interactions and social network data.
 
-This section aims to focus on some of the different analytical approaches and tools data data scientists apply to big data in order to gain valuable insights to aid business decision making. 
+This section aims to focus on some of the different analytical approaches and tools data scientists apply to big data in order to gain valuable insights to aid business decision making. 
 
 ## Objectives
 You will be able to:
-- Understand and explain how big data differs from routine data that is routinely analyzed
-- Describe 3 V's of big data as attributes that differentiate big data
-- Evaluate big data technologies and application areas for Big Data Analytics
+
+- List the domain areas where big data is particularly useful 
+- List the technologies associated with big data 
+- Describe the 3 V's of big data and how they differentiate big data from routine data 
 
 ## What is Big Data
 
@@ -24,17 +25,17 @@ Big data is no different than normal data that we have seen so far; it's only "b
 
 ### Defining Big Data
 
-Despite all the hype around this topic, there is no clear consensus on how to define  __Big Data__. The term often gets related to Business Analytics and Data mining for identifying relationships and associations present in huge amounts of transaction data.  
+Despite all the hype around this topic, there is no clear consensus on how to define  __Big Data__. The term often gets related to Business Analytics and Data Mining for identifying relationships and associations present in huge amounts of transaction data.  
 
-In the data science domain, Big Data usually refers to datasets that grow so large that they become awkward to work with using traditional database management systems and analytical approaches. They are data sets whose size is beyond the ability of commonly used software tools and storage systems to capture, store, manage, as well as process the data within a tolerable elapsed time.
+In the data science domain, Big Data usually refers to datasets that grow so large that they become awkward to work with using traditional database management systems and analytical approaches. They are datasets whose size is beyond the ability of commonly used software tools and storage systems to capture, store, manage, as well as process the data within a tolerable elapsed time.
 
 #### How big is "Big" Data?
 
-Big data sizes are constantly increasing, currently ranging from a few terabytes (TB) to many petabytes (PB) of data in a single data set. Consequently, some of the difficulties related to big data include capture, storage, search, sharing, analytics, and visualizing. Today, enterprises are exploring large volumes of highly detailed
+Big data sizes are constantly increasing, currently ranging from a few terabytes (TB) to many petabytes (PB) of data in a single dataset. Consequently, some of the difficulties related to big data include capture, storage, search, sharing, analytics, and visualizing. Today, enterprises are exploring large volumes of highly detailed
 data to discover trends and pieces of information considered incapable of being captured before. 
 
 Here are some of the examples of big data:
-- Web Traffic data: Data points such as number of page views, previous web page, user information, advertisement click-through rate, pages per visit, average visit duration
+- Web traffic data: Data points such as number of page views, previous web page, user information, advertisement click-through rate, pages per visit, average visit duration
 - Text data: Emails, tweets, news reports, voice recordings, and text gathered from crawling the web can make massive datasets that are valuable to data scientists
 - Location and Time data: GPS data helps Google determine which roads have higher traffic and which businesses will be busier at certain hours
 - Social network data: Using the information of relationships between users on Facebook, LinkedIn, Twitter, Reddit, and countless more
@@ -44,22 +45,21 @@ Here are some of the examples of big data:
 
 ## 3 V's of Big Data 
 
-Doug Laney published a [paper](https://blogs.gartner.com/doug-laney/files/2012/01/ad949-3D-Data-Management-Controlling-Data-Volume-Velocity-and-Variety.pdf) on three defining characteristics of big data. Three main features characterize big data: volume, variety, and velocity, or the three V’s. The volume of the data is its size, and  how enormous it is. Velocity refers to the rate with which data is changing, or how
-often it is created. Finally, Variety includes the different formats and types of data, as well as the different kinds of uses and ways of analyzing the data:
+Doug Laney published a [paper](https://blogs.gartner.com/doug-laney/files/2012/01/ad949-3D-Data-Management-Controlling-Data-Volume-Velocity-and-Variety.pdf) on three defining characteristics of big data. Three main features characterize big data: volume, variety, and velocity, or the three V’s. The volume of the data is its size, and how enormous it is. Velocity refers to the rate with which data is changing, or how often it is created. Finally, variety includes the different formats and types of data, as well as the different kinds of uses and ways of analyzing the data:
 
 <img src="./images/3_components.png" width=500>
 
-Let's look a bit deeper into what these 3Vs refer to:
+Let's look a bit deeper into what these 3 V's refer to:
 
 
 ### VOLUME
-Volume refers to the __amount of data__ generated through websites, portals and online applications in a data-driven business. Especially for online retailers, volume encompasses the available data that are out there and need to be assessed for relevance. 
+Volume refers to the __amount of data__ generated through websites, portals, and online applications in a data-driven business. Especially for online retailers, volume encompasses the available data that are out there and need to be assessed for relevance. 
 
 Consider the following:
 
 
-As of 2019, Facebook has 2.32 billion users, Youtube: 1.9 billion users, WhatsApp: 1.6 billion users and Instagram 1 billion users. Every day, these users contribute to billions of images, posts, videos, tweets, etc. You can now imagine the insanely large amount (or Volume) of data that is generated every minute around the world.
-Data volume is the primary attribute of big data. Big data can be quantified by size in Terabytes (TBs) or Petabytes (PBs), as well as even the number of records, transactions, tables, or files. Additionally, one of the things that make big data really big is that it’s coming from a greater variety of sources than ever before, including logs, clickstreams, and social media as we will see below. 
+As of 2019, Facebook has 2.32 billion users, Youtube: 1.9 billion users, WhatsApp: 1.6 billion users and Instagram 1 billion users. Every day, these users contribute to billions of images, posts, videos, tweets, etc. You can now imagine the insanely large amount (or **V**olume) of data that is generated every minute around the world.
+Data volume is the primary attribute of big data. Big data can be quantified by size in Terabytes (TBs) or Petabytes (PBs), as well as even the number of records, transactions, tables, or files. Additionally, one of the things that makes big data really big is that it’s coming from a greater variety of sources than ever before, including logs, clickstreams, and social media as we will see below. 
 
 <img src="./images/rank_users.png" width="650">
 
@@ -72,7 +72,7 @@ The following image created by [Lori Lewis and Chadd Callahan](https://www.allac
 <img src="./images/internet_minute.jpg" width="500">
 
 Velocity is basically the frequency of data generation or the frequency of data delivery. The leading edge of
-big data is streaming data, which is collected in real-time from the websites
+big data is streaming data, which is collected in real-time from the websites. 
 
 Tools within the Big Data stack help companies hold this explosion in velocity, accept the incoming flow of data and at the same time process it quickly enough so that it does not create bottlenecks.
 
@@ -84,12 +84,12 @@ Variety is all about the ability to classify the incoming data into various cate
 
 <img src="./images/unstructured_data.png" width="500">
 
-This leads us to the most widely used definition in the industry by Gartner.
+This leads us to the most widely used definition in the industry by Gartner: 
 
 
 ### *Big data is high-volume, high-velocity and/or high-variety information assets that demand cost-effective, innovative forms of information processing that enable enhanced insight, decision making, and process automation*.
 
-All of the above are examples for 3Vs are sources of Big Data, no matter how you define it.
+All of the above are examples for 3 Vs are sources of Big Data, no matter how you define it.
 
 **NOTE**: *Some researchers have discussed the addition of a fourth V, or __Veracity__. Veracity focuses on the quality of the data. This characterizes big data quality as good, bad, or undefined due to data inconsistency, incompleteness, ambiguity, latency, deception, and approximations*
 
@@ -97,7 +97,7 @@ The important thing to remember from this three-pronged definition of Big Data i
 
 ## Big Data Analytics
 
-With the evolution of technology and the increased amounts of data, as shown above, the need for faster and more efficient ways of analyzing such data has also grown exponentially. Having Big data __alone__ is no longer enough to make efficient decisions at the right time. As we mentioned above, Big Data cannot be easily analyzed with traditional data management and analysis techniques and infrastructures. Therefore, there arises a need for new
+With the evolution of technology and the increased amounts of data, as discussed above, the need for faster and more efficient ways of analyzing such data has also grown exponentially. Having Big data __alone__ is no longer enough to make efficient decisions at the right time. As we mentioned above, Big Data cannot be easily analyzed with traditional data management and analysis techniques and infrastructures. Therefore, there arises a need for new
 tools and methods specialized for big data analytics, as well as the required architectures for storing and managing such data. Accordingly, the emergence of big data has an effect on everything from the data itself to its collection, analysis, visualization, and the final extracted decisions.
 
 The image below shows the technology stack showing key tools and platforms heavily being employed in big data analytics today. 
@@ -150,7 +150,7 @@ And finally, one of the leading application in big data analytics is __Recommend
 
 
 
-Regardless of business or consumer the perspective, Recommendation systems have been immensely beneficial. Big data is the driving force behind Recommendation systems. A typical Recommendation system cannot do its job without sufficient data and big data supplies plenty of user data such as past purchases, browsing history, and feedback for the Recommendation systems to provide relevant and effective recommendations. In a nutshell, even the most advanced Recommenders cannot be effective without big data.
+Recommendation systems have been immensely beneficial for both businesses and consumers. Big data is the driving force behind recommendation systems. A typical recommendation system cannot do its job without sufficient data and big data supplies plenty of user data such as past purchases, browsing history, and feedback for the recommendation systems to provide relevant and effective recommendations. In a nutshell, even the most advanced recommendations cannot be effective without big data.
 
 ### So what's next?
 
@@ -158,7 +158,7 @@ After this quick introduction, we will look at Map-Reduce, a distributed computa
 
 ## Additional Reading 
 
-Big Data is a huge subject and incorporates a lot of underlying technologies and principles. You are advised to visit the following resources and also read around good Bid data articles to develop a sound and holistic understanding of the domain. 
+Big Data is a huge subject and incorporates a lot of underlying technologies and principles. You are advised to visit the following resources and also read good big data articles to develop a sound and holistic understanding of the domain. 
 
 - [Youtube: Big Data Trap](https://www.youtube.com/watch?v=0cizsKDn3TI) - Highly recommended, an excellent lecture on the social dimension of big data.
 
