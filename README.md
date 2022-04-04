@@ -17,7 +17,7 @@ You will be able to:
 
 The topic of "big data" has received a lot of hype lately, accompanied by a huge amount of interest from big businesses as it can potentially provide them data-driven decision-making abilities. Big data is one of the most discussed topics in business today across industry sectors, although it was barely known a few years ago. This lesson will focus on what big data is, why it is important, and the benefits it brings. 
 
-Big data is no different than normal data that we have seen so far; it's only "bigger." This changes the analytical landscape that must be used as the huge size increase of the data requires specialist tools, techniques, and platforms. It helps us solve new problems and find improved ways to find answers to old problems. 
+Big data is no different than normal data that we have seen so far; it's only "bigger." This changes the analytical landscape that must be used as the huge size increase of the data requires specialized tools, techniques, and platforms. It helps us solve new problems and find improved ways to find answers to old problems. 
 
 
 ### Defining Big Data
@@ -30,12 +30,18 @@ In the data science domain, big data usually refers to datasets that grow so lar
 
 Big data sizes are constantly increasing, currently ranging from a few terabytes (TB) to many petabytes (PB) of data in a single dataset. Consequently, some of the difficulties related to big data include capturing, storing, searching, sharing, analyzing, and visualizing. Today, enterprises are exploring large volumes of highly detailed data to discover trends and pieces of information considered incapable of being captured before. 
 
-Here are some of the examples of big data:
-- Web traffic data: Data points such as number of page views, previous web page, user information, advertisement click-through rate, pages per visit, average visit duration
-- Text data: Emails, tweets, news reports, voice recordings, and text gathered from crawling the web can make massive datasets that are valuable to data scientists
-- Location and time data: GPS data helps Google determine which roads have higher traffic and which businesses will be busier at certain hours
-- Social network data: Using the information of relationships between users on Facebook, LinkedIn, Twitter, Reddit, and countless other websites and apps
-- Smart grid and sensor data: With the advent of the Internet of Things (IoT), more and more devices are able to record data at all times, making it possible to gather lots of data instantaneously
+Here are some of the examples of big data:  
+
+- Web traffic data: Data points such as number of page views, previous web page, user information, advertisement click-through rate, pages per visit, average visit duration  
+
+- Text data: Emails, tweets, news reports, voice recordings, and text gathered from crawling the web can make massive datasets that are valuable to data scientists  
+
+- Location and time data: GPS data helps Google determine which roads have higher traffic and which businesses will be busier at certain hours  
+
+- Social network data: Using the information of relationships between users on Facebook, LinkedIn, Twitter, Reddit, and countless other websites and apps  
+
+- Smart grid and sensor data: With the advent of the Internet of Things (IoT), more and more devices are able to record data at all times, making it possible to gather lots of data instantaneously  
+
  
 
 
@@ -95,7 +101,7 @@ The important thing to remember from this three-pronged definition of Big Data i
 With the evolution of technology and the increased amounts of data, as discussed above, the need for faster and more efficient ways of analyzing such data has also grown exponentially. Having big data __alone__ is no longer enough to make efficient decisions at the right time. As we mentioned above, Big Data cannot be easily analyzed with traditional data management and analysis techniques and infrastructures. Therefore, there arises a need for new
 tools and methods specialized for big data analytics, as well as the required architectures for storing and managing such data. Accordingly, the emergence of big data has an effect on everything from the data itself to its collection, analysis, and visualization, as well as the final extracted decisions.
 
-The image below shows the technology stack, or the key tools and platforms heavily being employed in big data analytics today. 
+The image below shows the technology stack, or the key tools and platforms being heavily employed in big data analytics today. 
 
 
 
@@ -147,7 +153,7 @@ Recommendation systems have been immensely beneficial for both businesses and co
 
 ### So what's next?
 
-After this quick introduction, we will look at Map-Reduce, a distributed computation platform designed to incorporate big data analytics and how it is used by Hadoop/Apache Spark development environments to analyze big data. 
+After this quick introduction, we will look at MapReduce, a distributed computation platform designed to incorporate big data analytics and how it is used by Hadoop/Apache Spark development environments to analyze big data. 
 
 ## Additional Reading 
 
@@ -164,4 +170,4 @@ Big data is a huge subject and incorporates a lot of underlying technologies and
 
 ## Summary 
 
-In this introductory lesson on big data, we looked at what data qualifies at "big data". We looked at how it is hard to come up with a standard definition of big data due to the variety of its applications and use cases. Up next, we will get into how we actually make parallelizable applications that are efficient with big data. 
+In this introductory lesson on big data, we looked at what data qualifies as "big data". We looked at how it is hard to come up with a standard definition of big data due to the variety of its applications and use cases. Up next, we will get into how we actually make parallelizable applications that are efficient with big data. 
