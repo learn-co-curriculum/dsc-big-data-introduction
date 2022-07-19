@@ -165,7 +165,7 @@ Big data is a huge subject and incorporates a lot of underlying technologies and
 
 - [Big Data Analytics](https://pdfs.semanticscholar.org/d392/0f02dbb15da19b04d782fc0546ef113e0bf7.pdf) - A great paper summarizing big-data-related terms, ideas, etc. 
 
-- [Introduction to Big Data](https://www.ntnu.no/iie/fag/big/lessons/lesson2.pdf) - A paper discussing the basics of big data
+- [Introduction to Big Data](https://web.archive.org/web/20200214174508/https://www.ntnu.no/iie/fag/big/lessons/lesson2.pdf) - A paper discussing the basics of big data
 
 
 ## Summary 
